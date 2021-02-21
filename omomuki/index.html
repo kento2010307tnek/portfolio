@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omomuki -guest house-</title>
+<meta name="description" content="国内だけでなく、世界各国からのゲストを迎え入れるホステル。カフェであり、バーであり、宿泊者のラウンジでもあります。海外からの旅行者、国内の旅行者、食事やカフェを楽しむ地元の方。様々なバックグラウンドを持った方が集まる場所<br>だからこそ生まれる出会いを、私たちは大切にしています。">
+<!--CSS-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+</head>
+<body>
+	<!--ヘッダー-->
+	<header>
+		<h1><a href="index.html"><img src="img/header-logo.png" width="80" height="80" alt="ロゴ"/></a></h1>
+		<nav>
+			<div id="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="#rooms">HOSTEL</a></li>
+				<li><a href="#cafe-bar">CAFE ＆ BAR</a></li>
+				<li><a href="#event">EVENT</a></li>
+				<li><a href="#access">ACCESS</a></li>
+				<li><a href="#">BOOKING</a></li>
+				<li><a href="#">EN/JP</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--/ヘッダー-->
+
+	<!--メイン-->
+	<div class="inner">
+		<main>
+			<p class="main-image"><img src="img/logo.png" width="300" height="300" alt="ロゴ"/></p>
+			<div class="form">
+				<input id="checkIn" type="text" class="datepicker" name="datein" value="" placeholder="チェックイン" readonly>
+				<input id="checkOut" type="text" class="datepicker" name="dateout" value="" placeholder="チェックアウト" readonly>
+				<input type="search" list="list" class="people" value="" placeholder="人数">
+					<datalist id="list">
+					<option value="1人">
+					<option value="2人">
+					<option value="3人">
+					<option value="4人">
+					<option value="5人">
+					<option value="6人">
+					<option value="7人">
+					<option value="8人">
+					<option value="9人">
+					<option value="10人">
+					</datalist>
+				<input type="submit" class="yellow" value="検索">
+			</div>
+			<!--ラウンジ-->
+			<div class="inner2">
+				<h2>LOUNGE</h2>
+				<section class="lounge">
+		　　		 <figure><img src="img/lounge.png" width="450" height="300" alt="ラウンジ写真1"/></figure>
+					<div class="lounge-text">
+						<h3>ここから物語がはじまる。</h3>
+						<p>国内だけでなく、世界各国からのゲストを迎え入れるホステル。<br>カフェであり、バーであり、宿泊者のラウンジでもあります。<br>海外からの旅行者、国内の旅行者、食事やカフェを楽しむ地元の方。<br>様々なバックグラウンドを持った方が集まる場所<br>だからこそ生まれる出会いを、私たちは大切にしています。</p>
+					</div>
+				</section>
+				<section class="news">
+					<div class="topline"></div>
+					<!--ニュース-->
+						<h3>NEWS</h3>
+						<ul>
+							<li><a href="#">2021年3月1日 OPEN予定</a></li>
+							<li><a href="cafe-bar.html">期間限定　世界中のビールがお楽しみいただけます。</a></li>
+						</ul>
+					<div class="underline"></div>
+				</section>
+				<!--ホテル-->
+				<section class="rooms" id="rooms">
+					<h2>HOSTEL</h2>
+						<div class="suite">
+							<div class="suite-txt">
+								<p>suite・single・domitoryの3種類のお部屋をご用意しております。<br>用途に合わせてお選びください。<br>1泊1名<br>3,000yen～</p>
+								<p class="btn"><a href="#">MORE</a></p>
+							</div>
+							<figure><img src="img/sweet.png" width="650" height="400" alt=""/></figure>
+						</div>
+						<div class="single">
+							<figure><img src="img/single.png" width="400" height="300" alt=""/></figure>
+							<figure><img src="img/domi.png" width="200" height="200" alt=""/></figure>
+						</div>
+				</section>
+				<!--カフェとバー-->
+				<section class="cafebar" id="cafe-bar">
+					<h2>CAFE & BAR</h2>
+					<p>9:00~18:00はカフェとして、18:00~22:00はバーとしてお楽しみいただけます。<br>メニューが切り替わります。</p>
+					<div class="cafe-bar">
+						<div class="cafe">
+							<h2>CAFE</h2>
+							<h3 class="time">9:00~18:00</h3>
+							<figure><img src="img/cafe.png" width="450" height="300" alt=""/></figure>
+							<p>こだわりの抹茶を使用した抹茶ラテを販売してます。</p>
+							<p class="btn"><a href="#">MENU</a></p>
+						</div>
+						<div class="bar">
+							<h2>BAR</h2>
+							<h3 class="time">18:00~22:00</h3>
+							<figure><img src="img/bar.png" width="450" height="300" alt=""/></figure>
+							<p>様々なお酒とおつまみをお楽しみいただけます。</p>
+							<p class="btn"><a href="#">MENU</a></p>
+						</div>
+					</div>
+					<figure><a href="cafe-bar.html"><img src="img/banner-beer.png" alt="世界中のビール"/></a></figure>
+				</section>
+				<!--イベント-->
+				<section class="event" id="event">
+					<h2>EVENT</h2>
+					<p><a href="#">2021.3.20  英会話　参加者急募！</a></p>
+					<div class="talk">
+						<figure><a href="#"><img src="img/talk.png" width="500" height="400" alt="英会話風景"/></a></figure>
+						<p>初心者大歓迎。英会話イベントを企画しました。<br>当社外国人スタッフとコミュニケーションをお楽しみいただけます。<br>ひとり一人に合ったレベルでご対応いたします。</p>
+					</div>
+				</section>
+				<!--アクセス-->
+				<section class="access" id="access">
+					<h2>ACCESS</h2>
+					<p class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747975472314!2d139.74323885095495!3d35.658580480102415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1605835863647!5m2!1sja!2sjp" width="100%" height="auto"></iframe></p>
+					<p class="btn-booking"><a href="booking.html">BOOKING</a></p>
+				</section> 
+			</div>
+		</main>
+		<!--/メイン-->
+
+		<!--フッター-->
+		<footer>
+			<div class="inner2">
+				<small>Copyright © 2020 Omomuki All rights reserved.</small>
+			</div>
+		</footer>
+		<!--/フッター-->
+	</div>
+
+		<!--jQuery-->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="js/jquery.bgswitcher.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/jquery.smoothscroll.js"></script>
+		<!--予約カレンダー-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</body>
+</html>
