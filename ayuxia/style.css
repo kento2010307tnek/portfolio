@@ -1,0 +1,1062 @@
+body, p, h1, h2, h3, h4, dl, ul,img, figure,main{
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+body {
+	margin: 0 !important;
+	color: #555;
+	font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+	line-height: 2.25;
+}
+main .inner {
+	margin: 0 auto;
+	width: 1000px;
+}
+h4{
+    font-weight: normal;
+}
+/*ここからheader*/
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+	background-color: #fff;
+	opacity: 0.9;
+	border-bottom:1px solid #e0e0e0;
+}
+header .inner01 {
+	width:1000px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+header h1 {
+	display: grid;
+	place-items: center;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+header h1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul {
+	list-style-type: none;
+	display: flex;
+}
+nav li a {
+	text-decoration: none;
+	color: #555;
+	display: block;
+	font-size: 0.875em;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	padding: 0 5px;
+	line-height: 60px;
+    transition: all .3s;
+}
+nav li a:hover{
+    opacity: 0.4;
+}
+nav li a:last-child{
+	margin-right: 0px;
+}
+nav li {
+	padding-right: 20px;
+}
+nav li:last-child {
+	padding-right: 0px;
+}
+.inner .mainimage {
+	position: relative;
+	padding-top: 190px;
+}
+.inner .text01 {
+	font-family: '游明朝','Yumincho';
+	font-size: 0.85em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.inner .text01 p {
+	padding-bottom: 30px;
+}
+.inner .text01 p:last-child{
+	padding-bottom: 0;
+}
+h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8em;
+    font-weight: normal;
+}
+/*h2下の線*/
+.line {
+	width: 50%;
+	height: 60px;
+	border-right: 1px solid #555;
+	margin-bottom: 100px;
+}
+
+/*ここからconcept*/
+.concept h2 {
+	padding-top: 95px;
+	padding-bottom: 30px;
+}
+.concept .picturespace {
+  width: 582px;
+  height: 819px;
+  background-image: url(img/concept-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.concept .content {
+  position: relative;
+}
+.concept .title {
+  font-size: 4em;
+  font-family: 'Vollkorn', serif;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  color:#e9e9e9;
+}
+.concept .text {
+  text-align: left;
+  font-size: 1em;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+.concept .text p {
+  padding-bottom: 85px;
+}
+.concept .text p:last-child {
+  padding-bottom: 0px;
+}
+.concept .sp{
+	display: none;
+}
+
+/*ここからabout*/
+.about h2 {
+	margin-top: 120px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.about {
+  text-align: center;
+}
+.about .text p {
+  padding-bottom: 50px;
+}
+.about .box{
+	margin-top: 30px;
+	margin-bottom: 85px;
+}
+
+.about .pict{
+	margin: 60px 0 83px;
+}
+.about .text3{
+	line-height: 3em;
+	margin-bottom: 280px;
+}
+.crown {
+  background-image: url("img/about-img.jpg");
+  width: 100%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*ここからproduct*/
+.product h2{
+	margin-top: 80px;
+    padding: 60px 30px;
+}
+.product .line{
+       margin-bottom:100px;
+}
+.product .parent{
+	font-size:1em;
+	font-family:'游明朝','Yumincho';
+	width:260px;
+	border-bottom:1px solid #555;
+	text-align: center;
+	margin-bottom: 115px;
+	padding-bottom:5px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.product .theme{
+	text-align: center;
+}
+.kouka p {
+	text-align: center;
+	line-height: 2.25em;
+	margin-bottom: 1;
+}
+.kouka-text{
+	margin-bottom:200px;
+}
+.kouka-text p{
+	 padding-top:80px;
+}
+.kouka-text .sp{
+	display: none;
+}
+
+/*ここからmoon*/
+.product .moonarea {
+	display: flex;
+	justify-content: space-between;
+}
+.moonarea .moonimage {
+	width: 40%;
+}
+.moonarea .textarea {
+	width: 48%;
+	padding: 185px 20px 50px 0px;
+	height: 292px;
+	font-family: '游明朝','Yumincho';
+	text-align:right;
+	}
+.sleep {
+	font-size: 1.75em;
+	text-align: left;
+}
+.reset {
+	font-size: 1.75em;
+	text-align: right;
+}
+.moonarea .tincture {
+	font-size: 1.125em;
+	padding-top:70px;
+}
+.moonarea .content{
+	font-size:0.75em;
+	padding-bottom:15px;
+}
+.moonarea .price {
+	font-size: 1em;
+}
+.moonarea .number{
+	font-size: 1.175em;
+}
+
+/*SUN*/
+.product .sunarea {
+	margin-top:180px;
+	display: flex;
+	justify-content: space-between;
+}
+.product .sunimage {
+	width: 44.9%;
+}
+.sunarea .textarea {
+	width: 55.1%;
+	padding: 185px 0px 50px 0px;
+	height: 292px;
+	font-family: '游明朝','Yumincho';
+	text-align:left;
+	}
+.day {
+	font-size: 1.75em;
+	text-align: left;
+}
+.focus{
+	font-size: 1.75em;
+	text-align: right;
+}
+.sunarea .tincture {
+	font-size: 1.125em;
+	padding-top:70px;
+}
+.sunarea .content{
+	font-size:0.75em;
+	padding-bottom:15px;
+}
+.sunarea .price {
+	font-size: 1em;
+}
+.sunarea .number{
+	font-size: 1.175em;
+}
+
+/*feature*/
+.feature{
+	text-align: center;
+	font-size: 3em;
+	line-height: 1em;
+	font-family: 'Vollkorn', serif;
+	margin-bottom:150px;
+	margin-top:300px;
+}
+
+/*cbd*/
+h3{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Vollkorn', serif;
+    font-weight: normal;
+}
+.feature-wrapper h4{
+    display: inline-block;
+    font-size: 36px;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 75px;
+    font-family : YuMincho, 'Yu Mincho',serif;
+}
+.feature-wrapper h4::after{
+    position: absolute;
+    content: "";
+    display: block;
+    border-bottom: solid #555 2px;
+    bottom: -2px;
+    width: 40%;
+}
+.feature-area1{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.feature-text1{
+    padding-top: 80px;
+    width: 470px;
+}
+.safety{
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: solid 1px #999;
+}
+.feature-img1{
+    width: 400px;
+    height: 660px;
+    background-image: url(img/01-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.text02{
+    width: 80%;
+}
+.feature-area2{
+    margin-top: 80px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.feature-img2-1{
+    width: 385px;
+    height: 500px;
+    background-image: url(img/rose-image2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.feature-text2-1{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 50%;
+}
+.feature-text2-2{
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    width: 50%;
+}
+.feature-img2-2{
+    width: 376px;
+    height: 728px;
+    background-image: url(img/mint-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.feature-area3{
+    width: 100%;
+    position: relative;
+   height: 480px;
+}
+.feature-img3{
+    width: 396px;
+    height: 474px;
+    background-image: url(img/coconutus-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    top: -130px;
+    left: 0;
+}
+.feature-text3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+/*how to*/
+.how-to{
+	border:1px solid #cccccc;
+	display: flex;
+	margin:290px auto 0;
+    position: relative;
+	padding: 40px;
+	box-sizing: border-box;
+}
+.how-to-text{
+	padding-right:40px;
+    max-width: 66%;
+}
+.how-to-text h4{
+	font-size:24px;
+	font-family: 'Vollkorn', serif;
+	font-weight: normal;
+	padding-bottom:25px;
+    line-height: 1;
+}
+.how-to-text p{
+	font-size: 14px;
+	line-height: 28px;
+}
+.how-to figure{
+	padding:60px 0 0 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+/*btn buy now*/
+.bg-buybtn-area{
+	margin-top:226px;
+}
+.bg-buybtn {
+  width: 400px;
+  height: 70px;
+  border-radius: 3px;
+  text-align: center;
+  margin:0 auto;
+}
+.tri {
+  position: absolute;
+  right: 20px;
+  bottom: 42px;
+}
+.bg-buybtn a {
+  text-decoration: none;
+  color: #555;
+  border: 1px solid #555;
+  display: block;
+  padding-top: 17px;
+  border-radius: 3px;
+  padding-bottom: 17px;
+  position: relative;
+  font-family:'Vollkorn', serif;
+  font-size: 24px;
+  transition: all .3s;
+}
+.bg-buybtn a:hover{
+    opacity: 0.4;
+}
+
+/*instagram*/
+.Instagram{
+	width:1000px;
+	margin:485px auto 0;
+}
+.Instagram h4{
+    position: relative;
+	z-index: 100;
+}
+.Instagram-title{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+    margin-bottom: 20px;
+}
+.Instagram-title01{
+	display:flex;
+}
+.Instagram .box{
+	margin-left:10px;
+}
+.AYUXIA-cbd{
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+}
+.AYUXIA-cbd::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    height: 1px;
+    background-color: #555;
+}
+.AYUXIA-cbd a{
+	width:104px;
+	height:30px;
+	border:1px solid #999;
+	font-size: 0.875em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: #aaa;
+    text-decoration: none;
+}
+.Instagram-image{
+	display: flex;
+	justify-content:space-between;
+}
+
+/*faq*/
+.what-is h2{
+	text-align: center;
+	margin-top:479px;
+}
+.faqlist{
+    border-bottom: 1px solid #999;
+    width: 580px;
+    margin: 100px auto 470px;
+}
+.faqlist dd {
+	display: none;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 20px;
+    margin: 0 auto;
+}
+.faqlist dt{
+    text-align: center;
+	cursor:pointer;
+    padding: 25px 0;
+	border: 1px solid #999;
+	margin: 0 auto;
+    border-bottom: none;
+}
+.faqlist dl{
+    border-bottom: 1px solid #999;
+}
+
+/*ここからフッター*/
+footer{
+	width:1000px;
+	text-align: center;
+    border-top: solid 1px #999;
+    margin: 354px auto 0;
+}
+footer ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top:30px;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	text-decoration: none;
+	color:#555;
+    transition: all .3s;
+}
+footer a:hover{
+    opacity: 0.4;
+}
+footer figure{
+	margin:100px 0px 19px;
+}
+footer .box{
+	width:30px;
+	height:30px;
+	background-color: #555;
+	margin:0 9px 54px;
+}
+.logo-box{
+	display:flex;
+	justify-content: center;
+    padding: 20px 0 80px;
+}
+.logo-box a{
+	padding: 20px;
+}
+p.copy{
+	margin:105px 0 85px;
+    color: #ccc;
+}
+
+/*pagetop*/
+.pagetop a{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.08);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.pagetop a::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: solid 2px #999;
+    border-right: solid 2px #999;
+    transform: translate(50%,50%)rotate(-45deg);
+    right: 50%;
+    top: 25%;
+    transition: all .2s;
+}
+.pagetop a:hover::after{
+    top: 20%;
+}
+.sp{
+    display: none;
+}
+
+
+@media screen and (max-width:1000px){
+	img, figure{
+		max-width: 100%;
+		height: auto;
+	}
+	main{
+		width: auto;
+	}
+	main .inner{
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		box-sizing: border-box;/*幅調整用*/
+	}
+    .about h2{
+        margin-bottom: 10px;
+    }
+	header{
+		width: 100%;
+	}
+	header .inner01{
+		width: 100%;
+	}
+	header nav ul{
+		flex-wrap: wrap;
+		text-align: center;
+		margin: 0;
+	}
+	.inner .mainimage{
+		position: static;
+	}
+	.inner .text01{
+		text-align: center;
+		position: static;
+		font-size: 1.12em;
+		line-height: 2;
+	}
+	.text01 .pc{
+		display: none;
+	}
+	.concept .text {
+		text-align: left;
+		width: 35%;
+		height: auto;
+		position: absolute;
+		bottom: 0px;
+		right: 20px;
+	}
+	.concept .sp{
+		display: block;
+	}
+	.concept .picturespace {
+		width: 58.2%;
+	}
+     h4{
+        font-size: 30px;
+    }
+    .feature-area1{
+        height: auto;
+        margin-bottom: 200px;
+    }
+    .safety img{
+		padding: 10px 0 0 10px;
+        width: 118px;
+        max-width: inherit;
+        height: 118px;
+    }
+    .feature-img1{
+        width: 40%;
+    }
+    .feature-text1{
+        width: 47%;
+        min-width: 342px;
+    }
+    .feature-img2-1{
+        width: 38%;
+        z-index: -1;
+    }
+    .feature-img2-2{
+        width: 38%;
+        z-index: -1;
+    }
+    .feature-text2-1{
+        padding-top: 200px;
+        width: 80%;
+        min-width: 342px;
+    }
+    .feature-text2-2{
+        padding-top: 200px;
+        width: 80%;
+        min-width: 342px;
+    }
+    .feature-img3{
+        width: 60%;
+        top: -20px;
+	}
+    .feature-text3{
+        top: 100px;
+    }
+	.feature-text3 h4{
+		padding-top: 30px;
+	}
+	.how-to{
+		min-width: 90%;
+	}
+	.how-to-text{
+		padding: 0;
+	}
+	.Instagram{
+		width: 100%;
+	}
+    .Instagram h4{
+        margin: 0;
+    }
+    .AYUXIA-cbd::before{
+		display: none;
+    }
+	footer{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.inner01{
+		margin:0 auto;
+		flex-direction: column;
+	}
+	header h1{
+		margin: 0  auto;
+		text-align: center;
+		padding:0px;
+		background-color:#FFF;
+		position:fixed;
+		 top:14px;
+	}
+	nav ul{
+		width: 100vw;
+		text-align: center;
+		flex-wrap: wrap;
+		margin: 0 auto 0;
+		padding: 0;
+	}
+	nav ul li{
+		display: block;
+		display: none;
+		width: calc(50% - 102px);
+		padding: 16px 50px;
+		border: 1px solid #999;
+		background-color: #fff;
+	}
+	nav li:last-child{
+		padding-right:50px;
+		background-color:#cccccc;
+		width: calc(100% - 102px);
+	} 
+    nav li a{
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+	li.pc{
+		display:none !important;
+	}
+	#nav-toggle {
+		width: 100px;
+		height: 60px;
+		margin-left: auto;
+		position: relative;
+		padding-left: 0px;
+		right: -20px;
+	}
+	li.pc a{
+		display:none;
+	}
+	#nav-toggle span {
+		width: 30px;
+		height: 1px;
+		background-color: #595858;
+		display: block;
+		position: absolute;
+		right: 60px;
+		transition: 0.3s;
+	}
+	#nav-toggle span:nth-child(1) {
+		top: 20px;
+	}
+	#nav-toggle span:nth-child(2) {
+		top: 30px;
+	}
+	#nav-toggle span:nth-child(3) {
+		top: 40px;
+	}
+	#nav-toggle.open span:nth-child(1) {
+		transform: rotate(315deg);
+		top: 30px;
+	}
+	#nav-toggle.open span:nth-child(2) {
+		width:0;
+		right:90px;
+	}
+	#nav-toggle.open span:nth-child(3) {
+		top:30px;
+		transform:rotate(-315deg);
+	}
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+    }
+	nav .sp{
+		display: none;
+	}
+	#nav-toggle.open + ul .sp{
+		display: block;
+	}
+    .concept .title {
+        top: 0;
+        font-size: 2.6em;
+    }
+    .concept .picturespace {
+		width: 80%;
+		height: 530px;
+		background-image: url(img/concept-img-sp2.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+    .concept .text{
+        width: 80%;
+        text-align: right;
+        position: absolute;
+        right: 20px;
+        bottom: -450px;
+        margin-right: 0;
+    }
+    .concept .text p{
+        padding-bottom: 5px;
+    }
+    .about{
+        padding-top: 450px;
+    }
+	.kouka .sp-theme{
+		text-align: center;
+		line-height: 1.2;
+	}
+	.kouka .sp-theme div{
+		margin-bottom: 20px;
+	}
+	.kouka .sp-theme img{
+		vertical-align: middle;
+		line-height: 1;
+	}
+	.kouka .theme {
+    font-size: 45px;
+    margin: 0 auto 40px;
+    font-family: '游明朝','Yumincho';
+    font-weight: normal;
+	}
+	.mark{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .crown{
+        background-image: url(img/about-img-sp.jpg);
+    }
+    .focus ,.sleep ,.reset ,day{
+        font-size: 1.55em;
+    }
+    .moonarea{
+        flex-direction: column;
+    }
+    .moonarea .textarea{
+        width: 100%;
+        padding: 0;
+    }
+    .moonarea .textarea p{
+        text-align: center;
+    } 
+    .sunarea{
+        flex-direction: column;
+    }
+    .product .sunarea{
+         justify-content: flex-end;
+    }
+    .moonarea .textarea{
+        width: 100%;
+        padding: 120px 0 0 0;
+    }
+    .moonarea .textarea p{
+        text-align: center;
+    }
+	.moonarea .moonimage{
+		width: 100%;
+	}
+	.moonimage p img{
+		margin: 0 auto;
+		text-align: center;
+	}
+     .sunarea{
+        flex-direction: column;
+         padding-bottom: 200px;
+    }
+    .sunarea .textarea{
+        width: 100%;
+        padding: 120px 0 0 0;
+    }
+    .sunarea .textarea p{
+        text-align: center;
+    }
+	.product .sunimage{
+		width: 100%;
+	}
+	.sunimage p{
+		text-align: center;
+	}
+	.bg-buybtn-area{
+	   margin-top: 100px;
+    }
+	.bg-buybtn{
+		max-width: 95%;
+	}
+    .feature-wrapper h4{
+        font-size: 32px;
+    }
+	.feature-area3{
+		height: 850px;
+	}
+	.feature-text3{
+    position: absolute;
+    top: 440px;
+    right: 0;
+    width: 85%;
+	}
+    .feature-img3{
+        width: 50%;
+	}
+    .how-to-text{
+        position: static;
+        max-width: 100%;
+    }
+    .how-to-text h4{
+        text-align: center;
+    }
+    .how-to figure{
+        padding: 0;
+        position: static;
+        margin: 20px 0;
+        text-align: center;
+    }
+	.how-to{
+		max-width: 85%;
+        margin-top: 100px;
+	}
+    .Instagram{
+        margin-top: 240px;
+    }
+    .what-is h2{
+        margin-top: 260px;
+    }
+    .faqlist{
+        width: 85%;
+        margin: 100px auto 200px;
+    }
+	.pagetop a{
+    	width: 80px;
+   		 height: 80px;
+		border-radius: 40px;
+   		 bottom: 20px;
+    	right: 20px;
+	}
+	.pagetop a::after{
+   		 width: 20px;
+   		 height: 20px;
+   		 border-top: solid 2px #999;
+   		 border-right: solid 2px #999;
+   		 right: 50%;
+   		 top: 25%;
+   		 transition: all .2s;
+	}
+    footer{
+        width: 100%;
+        margin-top: 200px;
+    }
+    footer ul{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    footer li{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width:768px){
+	nav ul li{
+		display: block!important; 
+	}
+}
+
+@media screen and (min-width:769px){
+	nav ul .sp{
+		display: none !important;
+	}
+	
+	nav ul{
+		display: flex !important;
+	}
+}
