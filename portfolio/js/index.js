@@ -35,6 +35,6 @@ $(function () {
 
 $(".mainimage").ripples();({
     dropRadius: 1000,
-    resolution: 100,
+    resolution: 500,
     perturbance: 0.1
 });
